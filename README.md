@@ -1,1 +1,2 @@
-# group-array-elements
+# Coding Challenge
+
