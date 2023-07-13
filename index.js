@@ -35,11 +35,3 @@ function groupArrayElements(arr, n) {
 }
 
 module.exports = groupArrayElements;
-
-const array = [1,2,3,4,5];
-const num = 3;
-console.log(`----- An example of groupArrayElements() working -----`)
-console.log(`The original array is [${array}]`)
-console.log(`It needs to be divided into ${num} parts`)
-console.log(`The result is: `);
-console.log(groupArrayElements(array, num))
