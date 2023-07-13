@@ -4,7 +4,7 @@ The function groupArrayElements(), when given an array of length >= 0 and a posi
 
 Please ensure you have NodeJS installed. If not, you can install [here](https://nodejs.org/en)
 
-Then, in order to see a sample solution, open your terminal from the root and run node index.js
+Then, in order to see a sample solution, open your terminal from the root of the project and run node index.js. The sample solution will be logged to the terminal.
 ```
 node index.js
 ```
