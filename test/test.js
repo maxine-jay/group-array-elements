@@ -47,8 +47,8 @@ describe("groupArrayElements", () => {
     );
   });
   it("Array is correct length", () => {
-    assert.lengthOf(groupArrayElements([1, 2, 3, 4, 5, 6], 4), 4);
-    assert.lengthOf(groupArrayElements([], 3), []);
-    assert.lengthOf(groupArrayElements([1, 2, 3, 4, 5, 6, 7, 8, 9], 4), 4);
+    assert.lengthOf(groupArrayElements([1, 2, 3, 4, 5, 6], 4), 4, "Wrong result for [1,2,3,4,5,6]");
+    assert.lengthOf(groupArrayElements([], 3), [], "Wrong result for []");
+    assert.lengthOf(groupArrayElements([1, 2, 3, 4, 5, 6, 7, 8, 9], 4), 4, "Wrong result for [1,2,3,4,5,6,7,8,9]");
   });
 });
